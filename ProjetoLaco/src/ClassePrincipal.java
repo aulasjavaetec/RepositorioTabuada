@@ -10,10 +10,13 @@ public class ClassePrincipal {
 			int numero = sc.nextInt();
 			
 			for(int i=0; i<=10; i++){
-				
 				System.out.printf(numero + " * " + i + " = ");
 				System.out.println(numero * i);
-	
+			}
+		
+			for(int i=0; i<=10; i++){
+				System.out.printf(numero + " + " + i + " = ");
+				System.out.println(numero + i);
 			}
 			
 			break;
